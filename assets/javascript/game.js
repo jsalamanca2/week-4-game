@@ -63,38 +63,38 @@ function defender(event){
 function attack(){
 //statemnets to attach to attacker
 var fighter = $('.yourSection div span:first').text();
-if(fighter == "jonathan"){
+if(fighter == "Jonathan"){
   fighter = jonathan;
   $('#score1').html(fighter.health);
 }
-if(fighter == "chiefHopper"){
+if(fighter == "Chief Hopper"){
   fighter = chiefHopper;
   $('#score2').html(fighter.health);
 }
-if(fighter == "eleven"){
+if(fighter == "Eleven"){
   fighter = eleven;
   $('#score3').html(fighter.health);
 }
-if(fighter == "monster"){
+if(fighter == "Monster"){
   fighter = monster;
   $('#score4').html(fighter.health);
 }
 
 //Statements attach to opponents
 var opponent = $('.defense div span:first').text();
-if(opponent == "jonathan"){
+if(opponent == "Jonathan"){
   opponent = jonathan;
   $('#score1').html(opponent.health);
 }
-if(opponent == "chiefHopper"){
+if(opponent == "Chief Hopper"){
   opponent = chiefHopper;
   $('#score2').html(opponent.health);
 }
-if(opponent == "eleven"){
+if(opponent == "Eleven"){
   opponent = eleven;
   $('#score3').html(opponent.health);
 }
-if(opponent == "monster"){
+if(opponent == "Monster"){
   opponent = monster;
   $('#score4').html(opponent.health);
 }

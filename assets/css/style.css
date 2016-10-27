@@ -17,7 +17,7 @@ h3{
 header{
 	width: 980px;
 	color: red;
-	height:70px;
+	height:100px;
 	text-align: right;
 	background-color: rgb(36, 37, 31);	
 }
@@ -89,4 +89,16 @@ section{
 	background-color: red;
 	
 	color: #F1D43E;
+}
+#score1{
+	color: red;
+}
+#score2{
+	color: red;
+}
+#score3{
+	color: red;
+}
+#score4{
+	color: red;
 }
