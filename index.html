@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stranger Things RPG GAME</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Trade+Winds" rel="stylesheet">
+</head>
+<body>
+
+	<!-- wrapper for the whoel page and separated internally by sections contains character selection, attacker/defender and button. -->
+	<div class="wrapper">
+	<!--Logo for the game-->	
+		<header>
+			<div id="rpg">
+			<img id="logo" src="assets/images/strangerThingsLogo.png" width="150" height="70"><br><caption id="logorpg"><strong>RPG GAME</strong></caption><br>
+			</div>
+		</header>
+
+	<!--character selection-->
+		<section id="character">
+			<div id="jonathan" class="chooseCharacter">
+				<span>Jonathan</span><br>
+					<img src="assets/images/jonathan.png" class="choose" width="150" height="150"><br>
+				<span id="score1">100</span>
+			</div>
+			<div id="chiefHopper" class="chooseCharacter">
+				<span>Chief Hopper</span><br>
+					<img src="assets/images/chiefHopper.png" width="150" height="150"><br>
+					<span id="score2">120</span>
+			</div>
+			<div id="eleven" class="chooseCharacter">
+				<span>Eleven</span><br>
+					<img src="assets/images/eleven.png" width="150" height="150"><br>
+					<span id="score3">150</span>
+			</div>
+			<div id="monster" class="chooseCharacter">
+					<span>Monster</span><br>
+					<img src="assets/images/monster.png" width="150" height="150"><br>
+				<span id="score4">180</span> 
+			</div>
+		</section>
+
+	<!--character selection-->
+		<section class="yourSection">
+			<h3>Your Character</h3>
+
+		</section>
+
+	<!--opponent avaiable to fight-->
+		<section class="enemySection">
+			<h3>Enemies Available to Attack</h3>
+
+		</section>
+
+	<!--attack button-->
+		<section class="fight">
+			<h3>Fight Section</h3>
+			<button id="fight">Attack</button>
+		</section>
+
+	<!--defender-->
+		<section class="defense">
+			<h3>Defender</h3>
+
+		</section>
+
+	<!--used in jQuery-->
+		<section id="billboard">
+			<span id="caption1"> </span><br>
+			<span id="caption2"> </span><br>
+			
+		</section>
+
+	</div> 
+
+
+	<script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body{
+	background-image: url("../../assets/images/ST.png");
+}
+
+.wrapper{
+	width: 980px;
+	
+	min-height: 600px;
+	margin: 0 auto;		
+}
+
+h3{
+	font-family: 'Trade Winds', cursive;
+	color: red;
+}
+
+header{
+	width: 980px;
+	color: red;
+	height:70px;
+	text-align: right;
+	background-color: rgb(36, 37, 31);	
+}
+
+#head3{
+	width: 500px; 
+	margin: 0px;
+}
+
+section{
+	clear: left;
+}
+
+#rpg{
+	font-size: 35px;
+	font-family: 'Finger Paint', cursive;
+	text-align: center;
+	width: 200px;
+	float: right;
+	text-shadow: 2px 2px #F1D43E;
+	font-style: italic;
+}
+
+#logo{
+	float: left;
+}
+
+#logorpg{
+	float: right;
+}
+
+#character{
+	width: 980px;	
+}
+
+.chooseCharacter{
+	width: 150px;
+	
+	float: left;
+	text-align: center;
+}
+
+.yourSection span{
+	background-color: rgba(0, 128, 0, 0.5);
+	border-radius: 3px;
+	color: white;
+}
+
+.enemySection{
+	width: 980px;
+	height: 100%;
+	
+}
+
+.enemySection span{
+	background-color: rgba(255, 0, 0, 0.5);
+	border-radius: 3px;
+	color: white;
+	
+}
+
+.defense span{
+	background-color: rgba(0, 128, 0, 0.5);
+	border-radius: 3px;	
+	color: white;
+}
+
+#caption1, #caption2{
+	background-color: red;
+	
+	color: #F1D43E;
+}
